@@ -179,7 +179,6 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  background-color: var(--primary-text-color);
 }
 .main-button {
   display: block;
@@ -199,8 +198,18 @@ a {
   cursor: pointer;
 }
 .hero {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 188px 0;
   background-color: var(--primary-text-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/header-image/people-office.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-button:hover,
 .main-button:focus {
@@ -310,6 +319,9 @@ a {
 .footer-portfolio {
   padding: 100px 0;
   background-color: var(--primary-text-color);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .img-style {
@@ -395,6 +407,18 @@ a {
 
 .address-nav {
   margin-left: auto;
+}
+.btn-all {
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 /**
   |============================
