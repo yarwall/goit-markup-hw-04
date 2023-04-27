@@ -6,6 +6,7 @@
   --background-color: #e5e5e5;
   --background-button: #404bbf;
   --second-white-color: #ffffff;
+  --icon-customers: #8e8f99;
 }
 /*колір основного текста - #2E2F42 */
 /* колір тексту #434455 */
@@ -400,7 +401,42 @@ a {
 .main-advantages {
   padding: 120px 0 120px;
 }
+/**
+  |================================
+  | ICON
+    |================================
+*/
+.icon-pos {
+  width: 264px;
+  height: 112px;
+  left: 0px;
+  top: 0px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  background-color: var(--white-footer-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  height: 64px;
+  width: 59.717105865478516px;
+  left: 2.1414794921875px;
+  top: 0px;
+  border-radius: 0px;
+}
 
+/*
+  |================================
+  | END ICON
+  |================================
+*/
 .section-container {
   padding-bottom: 120px;
 }
