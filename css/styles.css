@@ -455,7 +455,7 @@ a {
 .soc-list {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
   margin-top: 8px;
 }
 .soc-item {
@@ -476,6 +476,7 @@ a {
   background-color: var(--background-color-soc);
   border-radius: 50%;
   color: var(--secondary-background);
+  gap: 24px;
 }
 .soc-link:hover,
 .soc-link:focus {
