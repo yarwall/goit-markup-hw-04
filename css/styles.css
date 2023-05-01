@@ -144,7 +144,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/header-image/people-office.png);
+    url(../images/people-office.jpg);
 }
 
 .hero-container {
@@ -229,9 +229,9 @@ img {
   width: 264px;
   height: 72px;
 }
-/*
+
 .doing {
-}*/
+}
 
 .doing-title {
   font-size: 36px;
