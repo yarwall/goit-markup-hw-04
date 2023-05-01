@@ -210,20 +210,14 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/img-name.jpg);
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 188px 0;
-  background-color: var(--primary-text-color);
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
     url(../images/header-image/people-office.png);
-  background-position: center;
+  padding: 188px 0;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
 }
 .main-button:hover,
 .main-button:focus {
