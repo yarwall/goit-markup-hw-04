@@ -167,6 +167,8 @@ a {
 
 .main-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* Hero styles */
@@ -202,6 +204,11 @@ a {
   cursor: pointer;
 }
 .hero {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-name.jpg);
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -212,6 +219,7 @@ a {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/header-image/people-office.png);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -241,6 +249,8 @@ a {
 
 .workers-title {
   width: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--second-white-color);
 }
@@ -406,6 +416,7 @@ a {
 }
 .main-advantages {
   padding: 120px 0 120px;
+  margin-bottom: 8px;
 }
 /**
   |================================
