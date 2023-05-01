@@ -460,6 +460,7 @@ a {
 .soc-icon {
   width: 40px;
   height: 40px;
+  fill: var(--current-color);
 }
 .soc-link {
   display: flex;
