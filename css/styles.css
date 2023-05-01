@@ -239,8 +239,8 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   font-size: 36px;
-  line-height: 1.11;
   text-transform: capitalize;
+  line-height: 1.1;
 }
 .section-team {
   padding: 120px 0;
