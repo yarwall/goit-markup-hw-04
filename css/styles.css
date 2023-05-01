@@ -485,6 +485,29 @@ a {
   justify-content: center;
   gap: 16px;
 }
+.social-footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--blue-color);
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #f4f4fd;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--background-button);
+}
+
+.social-footer-link:hover,
+.social-footer-link:focus {
+  background-color: #31d0aa;
+}
 .social-media-text {
   font-weight: 500;
   font-size: 16px;
