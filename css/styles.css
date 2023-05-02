@@ -359,7 +359,7 @@ button {
 }
 
 .customers-icon {
-  fill: var(--color-light-slate);
+  fill: currentColor;
 }
 .customers-card {
   display: flex;
