@@ -60,8 +60,6 @@ img {
 .header {
   padding: 24px 0;
   border-bottom: 1px solid var(--footer-text-color);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-logo {
@@ -142,12 +140,11 @@ img {
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/header-image/people-office.png);
+    url(../images/people-office.jpg);
 }
 
 .hero-container {
@@ -203,7 +200,6 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  margin-bottom: 8px;
 }
 
 .advantages-list {
@@ -283,8 +279,6 @@ img {
   padding-bottom: 32px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .team-social-list {
@@ -412,14 +406,14 @@ img {
 }
 
 .customers {
-  padding: 120px 0 120px;
+  padding: 130px 0 120px;
 }
 
 .customers-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
