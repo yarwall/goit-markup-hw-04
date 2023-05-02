@@ -446,7 +446,6 @@ button {
   border: 1px solid var(--cornflower-color);
   border-radius: 4px;
   padding: 12px 24px;
-  display: block;
 }
 
 .filters-btn:hover,
@@ -455,7 +454,6 @@ button {
   background: var(--pointing-state-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  display: block;
 }
 
 .portfolio-link:hover,
@@ -481,6 +479,7 @@ button {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+  display: block;
 }
 
 .portfolio-item {
