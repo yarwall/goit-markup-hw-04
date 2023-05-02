@@ -349,11 +349,13 @@ button {
   padding: 16px 32px;
   height: 88px;
   width: 168px;
+  color: var(--color-light-slate);
 }
 
 .customers-link:hover,
 .customers-link:focus {
   border: 1px solid var(--pointing-state-color);
+  color: #404bbf;
 }
 
 .customers-icon {
@@ -368,9 +370,9 @@ button {
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
 }
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
-  color: var(--pointing-state-color);
+.customers-icon:hover,
+:focus {
+  color: #404bbf;
 }
 /* ================ /CUSTOMERS SECTION  ============== */
 
