@@ -13,6 +13,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1,
@@ -203,7 +206,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/header-image/people-office.png);
+    url(../images/header-image/people-office.jpg);
   background-color: var(--secondary-text-color);
   max-width: 1440px;
   margin-left: auto;
@@ -354,7 +357,10 @@ button {
 .customers-icon {
   fill: var(--color-light-slate);
 }
-
+.customers-card {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
   fill: var(--pointing-state-color);
@@ -374,9 +380,6 @@ button {
   background: var(--secondary-text-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer-container {
