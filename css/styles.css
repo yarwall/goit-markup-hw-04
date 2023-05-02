@@ -67,7 +67,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
-  display: block;
 }
 
 .logo-link-dark {
@@ -397,7 +396,8 @@ button {
   justify-content: center;
   gap: 16px;
 }
-
+/*.footer-soc-item {
+  }*/
 .footer-soc-link {
   width: 40px;
   height: 40px;
@@ -482,6 +482,9 @@ button {
 .portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  display: block;
+}
+.portfolio-item {
   display: block;
 }
 /* ================ /PORTFOLIO SECTION ================= */
