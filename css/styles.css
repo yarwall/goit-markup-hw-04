@@ -200,14 +200,14 @@ button {
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: var(--secondary-text-color);
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/header-image/people-office.png);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -367,6 +367,7 @@ button {
   margin-top: 16px;
   width: 264px;
   display: flex;
+  align-items: baseline;
 }
 
 .footer-page {
