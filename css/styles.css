@@ -446,6 +446,7 @@ button {
   border: 1px solid var(--cornflower-color);
   border-radius: 4px;
   padding: 12px 24px;
+  display: block;
 }
 
 .filters-btn:hover,
@@ -457,7 +458,6 @@ button {
   display: block;
 }
 .filters-btn {
-  display: block;
 }
 .portfolio-link:hover,
 :focus {
