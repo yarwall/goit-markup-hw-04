@@ -342,11 +342,12 @@ button {
 }
 .customers-link {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
   padding: 16px 32px;
+  height: 100%;
 }
 
 .customers-link:hover,
@@ -363,7 +364,7 @@ button {
 }
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
-  fill: var(--pointing-state-color);
+  color: var(--pointing-state-color);
 }
 /* ================ /CUSTOMERS SECTION  ============== */
 
