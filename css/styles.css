@@ -347,12 +347,13 @@ button {
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
   padding: 16px 32px;
+  height: 100%;
 }
 
-/*.customers-link:hover,
+.customers-link:hover,
 .customers-link:focus {
   border: 1px solid var(--pointing-state-color);
-}*/
+}
 
 .customers-icon {
   fill: var(--color-light-slate);
@@ -363,10 +364,8 @@ button {
 }
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
-  fill: var(--pointing-state-color);
-  justify-content: center;
+  color: var(--pointing-state-color);
 }
-
 /* ================ /CUSTOMERS SECTION  ============== */
 
 /* ================ FOOTER ================= */
