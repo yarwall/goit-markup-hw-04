@@ -457,8 +457,7 @@ button {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   display: block;
 }
-.filters-btn {
-}
+
 .portfolio-link:hover,
 :focus {
   display: block;
@@ -503,4 +502,8 @@ button {
   display: block;
 }
 
-/* ================ /PORTFOLIO SECTION ================= */
+/**
+  |================================
+  | Code by Yaroslav Yarmolchuk
+  |================================
+*/
