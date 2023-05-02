@@ -67,6 +67,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
+  display: block;
 }
 
 .logo-link-dark {
