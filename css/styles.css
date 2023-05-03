@@ -13,9 +13,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 h1,
@@ -238,12 +235,14 @@ button {
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
   background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
   background: var(--pointing-state-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--primary-white-color);
 }
 
 /* ================ /HERO IMAGE ================= */
@@ -282,9 +281,6 @@ button {
 /* ================ TEAM SECTION  ================ */
 .team-section {
   background: var(--cloud-color);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
@@ -443,7 +439,7 @@ button {
   letter-spacing: 0.04em;
   color: var(--accent-color);
   background-color: var(--cloud-color);
-  border: 1px solid var(--cornflower-color);
+  border: 1px solid transparent;
   border-radius: 4px;
   padding: 12px 24px;
 }
