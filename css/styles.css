@@ -342,7 +342,7 @@ button {
   align-items: center;
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
-  padding: 16px 32px;
+
   height: 88px;
   width: 168px;
   color: var(--color-light-slate);
@@ -358,13 +358,8 @@ button {
   fill: currentColor;
 }
 .customers-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: calc((100% - 120px) / 6);
   height: 88px;
-  border: 1px solid var(--color-light-slate);
-  border-radius: 4px;
 }
 .customers-icon:hover,
 :focus {
@@ -454,8 +449,11 @@ button {
 .portfolio-link {
   display: block;
 }
-.portfolio-link:hover,
-:focus {
+.portfolio-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
